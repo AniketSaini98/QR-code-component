@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Outfit:wght@400;700&display=swap');
+
+:root {
+    --white: hsl(0, 0%, 100%);
+    --light-gray: hsl(212, 45%, 89%);
+    --grayish-blue: hsl(220, 15%, 55%);
+    --dark-blue: hsl(218, 44%, 22%);
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: var(--light-gray);
+}
+
+.card {
+    margin: 40px auto;
+    width: 350px;
+    background-color: var(--white);
+    border-radius: 25px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container {
+    background-color: var(--white);
+    margin: 20px;
+}
+
+.hero-img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.inner-container {
+    background-color: var(--white);
+}
+
+.title {
+    margin-top: 20px;
+    text-align: center;
+    font-family: Outfit;
+    font-weight: 700;
+    background-color: var(--white);
+}
+
+.title:hover {
+    color: var(--dark-blue);
+}
+
+.description {
+    background-color: var(--white);
+    padding: 20px 0px 30px 0px ;
+    text-align: center;
+    line-height: 1.4rem;
+    font-family: Outfit;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.description:hover {
+    color: var(--grayish-blue);
+}
+
+@media screen and (max-width: 1440px) {
+    .card {
+        margin: 40px auto;
+        width: 350px;
+        background-color: var(--white);
+        border-radius: 25px;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .card {
+        margin: 40px auto;
+        width: 350px;
+        background-color: var(--white);
+        border-radius: 25px;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
